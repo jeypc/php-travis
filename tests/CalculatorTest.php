@@ -57,4 +57,12 @@ class CalculatorTest extends TestCase
     {
         $this->assertEquals(6, $this->calc->multiply(2, 3));
     }
+
+    /**
+     * Test is substract valid
+     */
+    public function testSubstract()
+    {
+        $this->assertEquals(2, $this->calc->substract(5, 3));
+    }
 }
