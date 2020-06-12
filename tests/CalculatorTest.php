@@ -47,4 +47,14 @@ class CalculatorTest extends TestCase
     {
         $this->assertEquals(5, $this->calc->add(1, 4));
     }
+
+    /**
+     * Test is multiply valid
+     * 
+     * @tests
+     */
+    public function testMultiply()
+    {
+        $this->assertEquals(6, $this->calc->multiply(2, 3));
+    }
 }
