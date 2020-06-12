@@ -1,0 +1,23 @@
+{
+    "name": "jay/php-travis",
+    "type": "project",
+    "description": "PHP Unit",
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5"
+    },
+    "autoload": {
+        "classmap": [
+            "Controllers/"
+        ]
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jay",
+            "email": "jeysean3@gmail.com"
+        }
+    ]
+}
