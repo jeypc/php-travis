@@ -65,4 +65,12 @@ class CalculatorTest extends TestCase
     {
         $this->assertEquals(2, $this->calc->substract(5, 3));
     }
+
+    /**
+     * Test is substract valid
+     */
+    public function testDivide()
+    {
+        $this->assertEquals(3, $this->calc->divide(10, 5));
+    }
 }
