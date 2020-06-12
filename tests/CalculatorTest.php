@@ -71,6 +71,6 @@ class CalculatorTest extends TestCase
      */
     public function testDivide()
     {
-        $this->assertEquals(3, $this->calc->divide(10, 5));
+        $this->assertEquals(2, $this->calc->divide(10, 5));
     }
 }
